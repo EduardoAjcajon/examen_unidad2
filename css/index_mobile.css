@@ -1,0 +1,87 @@
+@media screen and (max-width: 480px) {
+    .movil{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.foto_perfil{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 360px;
+}
+.Nombre{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+.paginas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.pagina1{
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-left: rem;
+    margin-right: 1.7rem;
+}
+.pagina:hover{
+    background-color: var(--color3);
+    cursor: pointer;
+}
+.pagina{
+    width: 10rem;
+    height: 3rem;
+    background-color: var(--color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-right: 1.7rem;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.8rem;
+}
+.contenedor3{
+    display: none;
+}
+.item2{
+    margin-top: 5.1rem;
+}
+.item3{
+    padding-bottom: 2rem;
+}
+.imgItems{
+    width: 35rem;
+    height: 27rem;
+}
+.titulosItem{
+    font-size: 2rem;
+    margin-top: 3.7rem;
+}
+.infoItems{
+    width: 35rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
